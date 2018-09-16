@@ -13,16 +13,16 @@ import org.springframework.stereotype.Component;
 
 import com.sarath.my.proj.domain.InputValidateResponseVO;
 import com.sarath.my.proj.domain.InputValidateVO;
-import com.sarath.my.proj.service.InputValidateService;
+import com.sarath.my.proj.service.MyService;
 
 import javax.ws.rs.QueryParam;
 
 @Component
-@Path("/signup")
-public class SignupResource {
+@Path("/wservice")
+public class MyResource {
 	
 	@Autowired
-	InputValidateService inputValidateService;
+	MyService inputValidateService;
 	
 	//@POST
 	@GET

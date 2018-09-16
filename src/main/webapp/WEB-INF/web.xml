@@ -20,7 +20,7 @@
 		<servlet-class>com.sun.jersey.spi.spring.container.servlet.SpringServlet</servlet-class>
 		<init-param>
 			<param-name>com.sun.jersey.config.property.packages</param-name>
-			<param-value>com.bos.apollo</param-value>
+			<param-value>com.sarath.my</param-value>
 		</init-param>
 		
 		<init-param>
