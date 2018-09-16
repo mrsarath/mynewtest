@@ -6,10 +6,10 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
  
-	<context:component-scan base-package="com.bos.apollo" />
+	<context:component-scan base-package="com.sarath.my" />
 	
 	<!-- <bean id="transactionBo" class="com.bos.apollo.transaction.impl.TransactionBoImpl" /> -->
  
-    <context:component-scan base-package="com.bos.apollo" />
+    <context:component-scan base-package="com.sarath.my" />
  
 </beans>

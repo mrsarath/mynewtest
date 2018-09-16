@@ -6,7 +6,7 @@ import javax.ws.rs.core.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.bos.apollo.transaction.TransactionBo;
+import com.sarath.my.transaction.TransactionBo;
 
 @Component
 @Path("/payment")
